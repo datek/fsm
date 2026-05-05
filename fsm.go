@@ -1,5 +1,9 @@
 package fsm
 
+import (
+	"fmt"
+)
+
 type StateName string
 
 const STATE_FINAL = StateName("STATE_FINAL")
@@ -42,4 +46,11 @@ func (f *fsm[T]) Run() {
 
 func (f *fsm[T]) CurrentStateName() StateName {
 	return f.currentStateName
+}
+
+func init() {
+	fmt.Println(`************************** WARNING **************************
+The project has been moved to https://codeberg.org/datek/fsm
+*************************************************************
+	`)
 }

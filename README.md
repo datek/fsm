@@ -4,6 +4,12 @@
 
 A dead simple Finite State Machine in Golang.
 
+## WARNING
+
+The project has been moved to https://codeberg.org/datek/fsm
+
+The github repo will be deleted in a short period.
+
 ## Why?
 I looked at a couple of other libs on GitHub, but all of them were more complicated. Events, sources, destinations, callbacks, background context, whatever... I don't need those.  
 
